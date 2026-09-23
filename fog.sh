@@ -6,5 +6,5 @@ git clone https://github.com/XephiraOS/local_manifests.git -b main .repo/local_m
 /opt/crave/resync.sh
 rm -rf hardware/google/pixel/kernel_headers/Android.bp
 . build/envsetup.sh
-lunch lineage_fog-bp4a-user
+lunch aosp_cf_x86_64_phone-trunk_staging-userdebug
 m bacon
